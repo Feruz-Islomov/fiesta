@@ -48,11 +48,16 @@
         <!-- <img src="images/hero-bg.jpg" alt="" /> -->
         <video
           class="position-absolute vid"
-          src="./images/meat.mp4"
-          autoplay
+          controls="controls"
+          controls
+          preload="auto"
+          autoplay="autoplay"
           muted
           loop
-        ></video>
+          playsinline
+        >
+          <source src="./images/meat.mp4" type="video/mp4" />
+        </video>
       </div>
       <!-- header section strats -->
       <header class="header_section">
